@@ -203,19 +203,19 @@ class Usersmanagement extends CI_Controller
 		}
 		// else {
 
-			// $this->data['message'] = (validation_errors()) ? validation_errors() : $this->session->flashdata('message');
+		// $this->data['message'] = (validation_errors()) ? validation_errors() : $this->session->flashdata('message');
 
-			// $this->data['debug'] = $this->tank_auth->debug('14');
-			$this->data['use_username'] = $use_username;
+		// $this->data['debug'] = $this->tank_auth->debug('14');
+		$this->data['use_username'] = $use_username;
 
-			$this->data['action'] = site_url('Usersmanagement/add');
-			$this->data['url'] = site_url('Usersmanagement');
+		$this->data['action'] = site_url('Usersmanagement/add');
+		$this->data['url'] = site_url('Usersmanagement');
 
-			$this->load->view('component/header', $this->data);
-			$this->load->view('component/sidebar', $this->data);
-			$this->load->view('component/navbar', $this->data);
-			$this->load->view('usersmanagement/form_register', $this->data);
-			$this->load->view('component/footer');
+		$this->load->view('component/header', $this->data);
+		$this->load->view('component/sidebar', $this->data);
+		$this->load->view('component/navbar', $this->data);
+		$this->load->view('usersmanagement/form_register', $this->data);
+		$this->load->view('component/footer');
 		// }
 	}
 
@@ -286,7 +286,7 @@ class Usersmanagement extends CI_Controller
 			$this->Usersmanagement_model->updateUser($data, $condition);
 			$this->Usersmanagement_model->updateUserProfile($custom, $condition);
 
-			redirect('Usersmanagement');
+			redirect('Pasien');
 		} else {
 			$this->data['nama_lengkap'] = $this->input->post('nama_lengkap');
 			$this->data['username'] = $this->input->post('username');
@@ -473,4 +473,4 @@ class Usersmanagement extends CI_Controller
 }
 
 /* End of file auth.php */
-/* Location: ./application/controllers/auth.php */ 
+/* Location: ./application/controllers/auth.php */
