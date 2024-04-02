@@ -6,7 +6,7 @@ class Auth extends CI_Controller
 	{
 		parent::__construct();
 
-		$this->load->library(array('tank_auth',"Ldap_tools"));
+		$this->load->library(array('tank_auth', "Ldap_tools"));
 
 		$this->lang->load('tank_auth');
 	}
@@ -125,7 +125,7 @@ class Auth extends CI_Controller
 						$PASSWORD = $this->form_validation->set_value('password');
 
 						$hasil = $this->ldap_tools->validate_user($USERNAME, $PASSWORD);
-						
+
 						if ($hasil) {
 							$getUser = $this->Ldap_model->take_users($USERNAME);
 
@@ -198,7 +198,7 @@ class Auth extends CI_Controller
 		} elseif ($this->tank_auth->is_logged_in(FALSE)) {                        // logged in, not activated
 			redirect('Auth/send_again');
 		} elseif (!$this->config->item('allow_registration', 'tank_auth')) {    // registration is off
-			$this->tank_auth->notice('registration-disabled');
+			$this->load->view('Auth/registration');
 		} else {
 			$use_username = $this->config->item('use_username', 'tank_auth');
 
@@ -293,14 +293,14 @@ class Auth extends CI_Controller
 						unset($data['password']); // Clear password (just for any case)
 					}
 
-//					$this->tank_auth->notice('registration-success');
+					//					$this->tank_auth->notice('registration-success');
 				} else {
 					$errors = $this->tank_auth->get_error_message();
 					foreach ($errors as $k => $v) $data['errors'][$k] = $this->lang->line($v);
 				}
 			}
 
-		
+
 
 			//$data['debug'] = $this->tank_auth->debug('14');
 
@@ -654,7 +654,6 @@ class Auth extends CI_Controller
 
 		echo $this->email->print_debugger();
 	}
-
 }
 
 /* End of file auth.php */

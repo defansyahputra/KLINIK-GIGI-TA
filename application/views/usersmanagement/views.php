@@ -9,8 +9,8 @@
         <div class="container-xxl flex-grow-1 container-p-y">
           <h6 class="mb-2">
             <?php foreach ($breadcrumbs as $breadcrumb) { ?>
-                <span class="<?php echo $breadcrumb['class']; ?>"><?php echo ($breadcrumb['active'] == TRUE) ? '<a href="' . $breadcrumb['href'] . '" class="pe-3 text-grey-300">' : NULL; ?><?php echo $breadcrumb['text']; ?><?php echo ($breadcrumb['active'] == TRUE) ? '</a>' : NULL; ?>
-            <?php } ?>
+              <span class="<?php echo $breadcrumb['class']; ?>"><?php echo ($breadcrumb['active'] == TRUE) ? '<a href="' . $breadcrumb['href'] . '" class="pe-3 text-grey-300">' : NULL; ?><?php echo $breadcrumb['text']; ?><?php echo ($breadcrumb['active'] == TRUE) ? '</a>' : NULL; ?>
+              <?php } ?>
           </h6>
           <div class="row">
             <!-- Hoverable Table rows -->
@@ -67,18 +67,18 @@
                               <a class="dropdown-item" href="<?php echo site_url('Usersmanagement/unbanned/' . $user->id_user); ?>">
                                 <i class="bx bx-recycle me-1"></i> Unbanned
                               </a>
-                            <?php
+                              <?php
                             } else {
                               if ($user->activated != 0) {
-                            ?>
+                              ?>
                                 <a class="dropdown-item" href="<?php echo site_url('Usersmanagement/banned/' . $user->id_user); ?>" class="btn btn-sm btn-danger" onclick="return confirm('Apakah Anda yakin akan membanned ?')">
                                   <i class="bx bx-trash me-1"></i> Banned
                                 </a>
-                            <?php
+                              <?php
                               }
                             }
                             if ($user->activated == '0') {
-                            ?>
+                              ?>
                               <a class="dropdown-item" href="<?php echo site_url('Usersmanagement/activate/' . $user->id_user); ?>">
                                 <i class="bx bx-check-square me-1"></i> Aktifasi
                               </a>
