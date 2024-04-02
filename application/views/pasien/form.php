@@ -16,7 +16,7 @@
             <?php } ?> -->
                     </h6>
                     <div class="row">
-                        <div class="col-lg-7">
+                        <div class="col-lg-6">
                             <!-- Daftar Pesanan -->
                             <div class="card mb-4">
                                 <div class="card-header d-flex align-items-center justify-content-between">
@@ -112,14 +112,14 @@
                                         <div class="row">
                                             <div class="col-sm-12 ">
                                                 <!-- Tambah Produk Button -->
-                                                <button type="button" class="btn btn-primary" onclick="tambahProduk()">Tambah Produk</button>
+                                                <button type="button" class="btn btn-primary" onclick="tambahProduk()">Tambah Rekamedis</button>
                                             </div>
                                         </div>
                                     </center>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-5">
+                        <div class="col-lg-6">
                             <!-- Tambah Pesanan -->
                             <div class="card mb-4">
                                 <div class="card-header d-flex align-items-center justify-content-between">
@@ -162,13 +162,397 @@
 
                                 </div>
                             </div>
-                        </div>
+                            <div class="card mb-4">
+                                <div class="card-header d-flex align-items-center justify-content-between">
 
+
+                                </div>
+                                <div class="card-body">
+                                    <!-- Form untuk menambahkan produk -->
+                                    <h3 class="mb-4 fw-bold">Rekamedis Tambahan</h3>
+                                    <div class="row">
+                                        <!-- Hoverable Table rows -->
+                                        <div class="card pb-3 px-4 ">
+                                            <div class="d-flex column gap-1 justify-content-center">
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>8</p>
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>7</p>
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>6</p>
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>5</p>
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>4</p>
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>3</p>
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>2</p>
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>1</p>
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>1</p>
+
+
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>2</p>
+
+
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>3</p>
+
+
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>4</p>
+
+
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>5</p>
+
+
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>6</p>
+
+
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>7</p>
+
+
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>8</p>
+
+
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <hr>
+                                            <div class="d-flex column gap-1 justify-content-center">
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>8</p>
+
+
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>7</p>
+
+
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>6</p>
+
+
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>5</p>
+
+
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>4</p>
+
+
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>3</p>
+
+
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>2</p>
+
+
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>1</p>
+
+
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>1</p>
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>2</p>
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>3</p>
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>4</p>
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>5</p>
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>6</p>
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>7</p>
+                                                </div>
+                                                <div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+                                                    </div>
+                                                    <p>8</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+
+
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
                     </div>
 
                 </div>
-                <!-- / Content -->
+
             </div>
+            <!-- / Content -->
         </div>
     </div>
+</div>
 </div>
